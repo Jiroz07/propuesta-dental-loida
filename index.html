@@ -178,6 +178,58 @@
       text-align: center;
       margin-top: 10px;
     }
+    .cost-breakdown {
+      margin-top: 16px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 16px 20px;
+    }
+    .cost-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #0d9488;
+      margin-bottom: 6px;
+    }
+    .cost-desc {
+      font-size: 11.5px;
+      color: #6b7280;
+      margin-bottom: 12px;
+    }
+    .cost-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .cost-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 8px 12px;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+    }
+    .cost-item.highlight {
+      background: #f0fdfb;
+      border-color: #99f6e4;
+    }
+    .cost-icon {
+      font-size: 18px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .cost-text strong {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #1a2e2b;
+      margin-bottom: 1px;
+    }
+    .cost-text span {
+      font-size: 11px;
+      color: #6b7280;
+    }
     .web-box {
       background: #f8fafc;
       border: 1px solid #e2e8f0;
@@ -346,6 +398,48 @@
         </div>
       </div>
       <div class="inv-note">⚡ El sistema queda listo en menos de una semana desde la aprobación.</div>
+
+      <div class="cost-breakdown">
+        <div class="cost-title">📊 ¿Por qué RD$5,000 al mes?</div>
+        <p class="cost-desc">La mensualidad cubre los servicios externos que mantienen el sistema funcionando todos los días:</p>
+        <div class="cost-list">
+          <div class="cost-item">
+            <span class="cost-icon">💬</span>
+            <div class="cost-text">
+              <strong>Servicio de WhatsApp automático</strong>
+              <span>Plataforma que envía las confirmaciones y notificaciones a sus pacientes — RD$1,885/mes</span>
+            </div>
+          </div>
+          <div class="cost-item">
+            <span class="cost-icon">🗄️</span>
+            <div class="cost-text">
+              <strong>Base de datos profesional</strong>
+              <span>Donde se guardan todas las citas de forma segura, sin interrupciones — RD$1,450/mes</span>
+            </div>
+          </div>
+          <div class="cost-item">
+            <span class="cost-icon">☁️</span>
+            <div class="cost-text">
+              <strong>Servidor del sistema</strong>
+              <span>El servidor que mantiene la página y el sistema activos 24/7 — RD$290/mes</span>
+            </div>
+          </div>
+          <div class="cost-item">
+            <span class="cost-icon">🌐</span>
+            <div class="cost-text">
+              <strong>Dominio web</strong>
+              <span>Su dirección personalizada en internet (ej: draloidadental.com) — RD$58/mes</span>
+            </div>
+          </div>
+          <div class="cost-item highlight">
+            <span class="cost-icon">🛠️</span>
+            <div class="cost-text">
+              <strong>Soporte y mantenimiento</strong>
+              <span>Atención ante cualquier problema, actualizaciones y mejoras continuas incluidas</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section>
